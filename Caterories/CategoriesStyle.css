@@ -1,0 +1,118 @@
+﻿.header{
+    width: 100%;
+    height: 10%;
+    background: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+/*Логотип*/
+.header__logo{
+    width: 10%;
+    height: 80%;
+    margin: -5 0 0 40px;
+    cursor: pointer;
+}
+.header__logo_size{
+width: 80%;
+height: 110%;
+}
+/*Блок, объединяющий поле поиска и иконки корзины и пользователя*/
+.service-panel{
+    width: 480px;
+    height: 50px;
+    
+}
+/*Для отображения скругленного поля поиска*/
+.header__search{
+    width: 280px;
+    height: 50px;
+    background: white;
+    border-radius: 100px;
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+}
+.header__search-input:focus{
+    outline: none;
+}
+/*Картинка в поле поиска*/
+.header__img_size{
+    position: absolute;
+    margin:12 0 0 23;
+    display: inline-block;
+}
+
+/*Поле поиска*/
+.header__search-input{
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 72%;
+    background: white;
+    border: none;
+    font-size: 20px;
+}
+/*Корзина*/
+.header__basket{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 0 10 0 50;
+    cursor: pointer;
+}
+/*Пользователь*/
+.header__user{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 0 10 0 10;
+    cursor: pointer;
+}
+.items{
+    background: lightgrey;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.items__categories{
+    background: rgb(102, 198, 253);
+    width: 20%;
+    height: 35%;
+    margin: 0 25 0 10;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.items__categories-image{
+    padding-top: 10px;
+    height: 80%;
+    width: 85%;
+    
+}
+.items__categories-text{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+}
+.items__categories-text p{
+    color: grey;
+    margin:2 0 0 10;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+}
+.footer__logo{
+    width: 5%;
+    height: 70%;
+}
