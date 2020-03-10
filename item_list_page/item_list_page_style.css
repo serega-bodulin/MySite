@@ -35,7 +35,7 @@ body{
     margin-left:15px ;
     width: 60px;
     height: 60px;
-    border: 3px solid black;
+    border: 2px solid blue;
     background: white;
     border-radius: 15px;
 }
@@ -60,17 +60,17 @@ body{
     flex-direction: column;
     
 }
-.item__grid_items a:first-child{
-    margin: 20px;
+.item__grid_items a{
     align-self: flex-end;
+    margin: 20;
     
 }
-
 .item__grid_items-name{
     overflow-y: auto;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 .item__grid_items-name img{
     width: 150px;
@@ -78,15 +78,45 @@ body{
     background: white;
     border-radius: 10px;
     padding: 2px;
+    border: 1px solid black;
 }
-.item__grid_items-view{
+.item__list_item_info{
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
-    margin: 38px;
-    margin-top: 10px;
-    margin-left: 60px;
 }
-.item__grid_items-view p{
+.item__list_location{
+    position: absolute;
+    top: 97px;
+    right: 20px;
+}
+.item__list_items-view{
+    display: flex;
+    width: 450px;
+    height: 155px;
+    margin:50 0 20 0;
+}
+.item__list_item_name-price{
+    display: flex;
+}
+.item__list_item_name-price a{
     margin: 0;
-    color: rgb(88, 88, 88);
+}
+.item__list_item_name-price p{
+    margin: 0 0 0 30;
+    color: rgb(214, 2, 2);
+}
+.item__list_item_info_size{
+    margin: 30 0 0 0;
+}
+.item__list_button{
+    width: 120px;
+    height: 40px;
+    background: yellow;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border: 1px solid black;
+    cursor: pointer;
 }

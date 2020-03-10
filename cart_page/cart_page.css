@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+}
+.basket__page{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.basket__page_items{
+
+    width: 65%;
+    height: 570px;
+    margin: 40 10 0 30;
+}
+.basket__page_item{
+    display: flex;
+    background: skyblue;
+    height: 230px;
+    width: 1250px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid;
+    
+}
+.basket__page_item-image img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    background: white;
+    margin-left: 30px;
+
+}
+.basket__page_item-name{
+    font-size: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+.basket__page_item input{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+}
+.basket__page_item_quantity{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    font-size: 22px;
+    margin-top: 20px;
+   
+    
+}
+.basket__page_item_quantity p{
+    margin: 0px;
+    padding-right: 25;
+}
+.basket__page_item_cost{
+    display: flex;
+    width: 200px;
+    height:200px;
+    margin:10 10 0 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.basket__page_item_cost p{
+    font-size: 40px;
+    margin: 0;
+}
+
+.basket__page_sum{
+    width: 20%;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.basket__page_item_cost a{
+    font-size: 20px;
+    margin: 0;
+}
+.basket__page_total_location{
+    width: 1250px;
+    font-size: 40px;
+    margin: 5;
+    display: flex;
+    justify-content: flex-end;
+}
+.basket__page_buttons{
+    width: 1250px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.basket__page_button{
+    width: 170px;
+    height: 32px;
+    background: skyblue;
+    padding-top: 11px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-left: 5px;
+    border: 1px solid;
+}
+.basket__page_sum p:nth-child(1){
+    font-size: 26px;
+    margin: 0;
+}
+.basket__page_sum p:nth-child(1){
+    font-size: 26px;
+    margin: 0;
+}
+.basket__page_sum p:nth-child(2){
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+    margin: 0 0 0 93px;
+    align-self: flex-start;
+}
+.basket__page_bottom-line{
+    width: 170px;
+    height: 20px;
+    border-bottom: 2px solid;
+}
+.basket__page_sum p:nth-child(4){
+    font-size: 40px;
+    margin: 15;
+}
